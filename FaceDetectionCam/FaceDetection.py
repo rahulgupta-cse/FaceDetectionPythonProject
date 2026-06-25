@@ -16,7 +16,7 @@ while True :
         minSize=(30, 30),
         flags=cv2.CASCADE_SCALE_IMAGE
     )
-
+    #creating rectangular Box 
     for (x,y,w,h) in faces:
         cv2.rectangle(video_info,(x,y),(x+w,y+h),(0,255,0),2)
 
