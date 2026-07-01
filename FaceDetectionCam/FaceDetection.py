@@ -30,6 +30,6 @@ while True :
 
     if cv2.getWindowProperty("Face Detection CAM ", cv2.WND_PROP_VISIBLE) < 1:
         break
-
+# Function Calling
 video_capture.release()
 cv2.destroyAllWindows()
